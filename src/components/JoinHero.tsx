@@ -39,42 +39,6 @@ export default function JoinHero() {
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
                   <Check className="text-[#0B1120]" size={16} />
                 </div>
-                <p className="text-lg text-gray-200">Unlimited group fitness sessions</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
-                  <Check className="text-[#0B1120]" size={16} />
-                </div>
-                <p className="text-lg text-gray-200">Unlimited group breathwork sessions</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
-                  <Check className="text-[#0B1120]" size={16} />
-                </div>
-                <p className="text-lg text-gray-200">Access to all classes on weekly timetable</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
-                  <Check className="text-[#0B1120]" size={16} />
-                </div>
-                <p className="text-lg text-gray-200">Access to Sauna and Icebath</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
-                  <Check className="text-[#0B1120]" size={16} />
-                </div>
-                <p className="text-lg text-gray-200">Improve your strength, mobility, endurance</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
-                  <Check className="text-[#0B1120]" size={16} />
-                </div>
-                <p className="text-lg text-gray-200">Improve your breath and energy</p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
-                  <Check className="text-[#0B1120]" size={16} />
-                </div>
                 <p className="text-lg text-gray-200">Train, stretch and breathe in one formula</p>
               </div>
               <div className="flex items-start gap-3">
@@ -82,6 +46,12 @@ export default function JoinHero() {
                   <Check className="text-[#0B1120]" size={16} />
                 </div>
                 <p className="text-lg text-gray-200">Come to as many classes as you like</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-[#D6A7A3] flex items-center justify-center mt-1">
+                  <Check className="text-[#0B1120]" size={16} />
+                </div>
+                <p className="text-lg text-gray-200">Best value for regular members</p>
               </div>
             </div>
 
