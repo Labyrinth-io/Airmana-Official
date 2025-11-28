@@ -57,16 +57,12 @@ export default function Hero() {
 
       <div className="relative h-screen flex items-center justify-center bg-[#0B1120]">
         <div className="relative z-20 flex flex-col items-center justify-center w-full px-6 pt-32 md:pt-24 pb-16 md:pb-24">
-          <div className="w-full max-w-6xl mx-auto mb-4 md:mb-0">
-            <div className="relative rounded-xl overflow-hidden shadow-2xl">
-              <video
-                controls
-                className="w-full aspect-video bg-black"
-                poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='9'%3E%3Crect fill='%230B1120' width='16' height='9'/%3E%3C/svg%3E"
-              >
-                <source src="https://assets.mixkit.co/videos/preview/mixkit-woman-meditating-in-lotus-position-at-sunset-513-large.mp4" type="video/mp4" />
-              </video>
-            </div>
+          <div className="w-full max-w-2xl mx-auto mb-4 md:mb-0">
+            <img
+              src={airmanaLogo}
+              alt="Airmana"
+              className="w-full h-auto object-contain"
+            />
           </div>
 
           <div className="mt-12">
