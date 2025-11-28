@@ -10,7 +10,7 @@ export default function Hero() {
     const timetable = document.getElementById('timetable');
     timetable?.scrollIntoView({ behavior: 'smooth' });
   };
- 
+
   return (
     <header className="relative min-h-screen bg-black overflow-hidden">
       <nav className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm">
