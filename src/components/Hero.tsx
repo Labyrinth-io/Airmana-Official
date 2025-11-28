@@ -1,7 +1,15 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import airmanaLogo from './images/Airmanalogotransparent.webp';
+function Navbar() {
+  return (
+    <img
+      src="/images/Airmanalogotransparent.webp"
+      alt="Airmana logo"
+      className="h-10 w-auto"
+    />
+  );
+}
 
 export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
