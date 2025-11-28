@@ -1,5 +1,5 @@
 import tribeBanner from '/images/TRIBEBANNERS.webp';
-import quantumBreath from './Images/AIRMANA QUANTUM BREATH.svg';
+import quantumBreath from '/Images/AIRMANA QUANTUM BREATH.svg';
 
 const events = [
   {
