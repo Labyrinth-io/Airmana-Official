@@ -1,4 +1,4 @@
-import tribeBanner from './Images/TRIBE BANNERS.webp';
+import tribeBanner from '/images/TRIBEBANNERS.webp';
 import quantumBreath from './Images/AIRMANA QUANTUM BREATH.svg';
 
 const events = [
