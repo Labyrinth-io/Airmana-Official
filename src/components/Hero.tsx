@@ -61,7 +61,7 @@ export default function Hero() {
             <img
               src={airmanaLogo}
               alt="Airmana"
-              className="w-full h-auto object-contain scale-90"
+              className="w-full h-auto object-contain scale-95"
             />
           </div>
 
