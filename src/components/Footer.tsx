@@ -32,9 +32,9 @@ export default function Footer() {
           <Link to="/headset-hire" className="text-gray-400 hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">
             HEADSET HIRE
           </Link>
-          <Link to="/join" className="text-gray-400 hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">
+          <a href="https://passm8.com/airmana" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">
             JOIN
-          </Link>
+          </a>
           <a href="#contact" className="text-gray-400 hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">
             CONTACT
           </a>

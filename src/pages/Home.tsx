@@ -50,7 +50,9 @@ export default function Home() {
       )}
 
       <a
-        href="#contact"
+        href="https://passm8.com/airmana"
+        target="_blank"
+        rel="noopener noreferrer"
         className="fixed bottom-8 right-24 bg-[#D6A7A3] text-[#0B1120] px-6 py-3 rounded-full shadow-lg hover:scale-105 transition-transform z-50 font-medium hidden md:block"
       >
         Book My Class

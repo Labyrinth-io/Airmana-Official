@@ -92,7 +92,9 @@ export default function Timetable() {
 
         <div className="text-center mt-12">
           <a
-            href="#contact"
+            href="https://passm8.com/airmana"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-[#D6A7A3] text-[#0B1120] px-10 py-4 rounded-full font-medium text-lg hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 transition-all tracking-wide"
           >
             Book Your Class

@@ -39,7 +39,7 @@ export default function Hero() {
             <a href="#events-workshops" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">EVENTS</a>
             <Link to="/breathwork" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">BREATHWORK</Link>
             <Link to="/headset-hire" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">HEADSET HIRE</Link>
-            <Link to="/join" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">JOIN</Link>
+            <a href="https://passm8.com/airmana" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">JOIN</a>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ export default function Hero() {
             <a href="#events-workshops" className="block text-white hover:text-[#D6A7A3] transition-colors py-3 text-sm tracking-wider" onClick={() => setMobileMenuOpen(false)}>EVENTS</a>
             <Link to="/breathwork" className="block text-white hover:text-[#D6A7A3] transition-colors py-3 text-sm tracking-wider" onClick={() => setMobileMenuOpen(false)}>BREATHWORK</Link>
             <Link to="/headset-hire" className="block text-white hover:text-[#D6A7A3] transition-colors py-3 text-sm tracking-wider" onClick={() => setMobileMenuOpen(false)}>HEADSET HIRE</Link>
-            <Link to="/join" className="block text-white hover:text-[#D6A7A3] transition-colors py-3 text-sm tracking-wider" onClick={() => setMobileMenuOpen(false)}>JOIN</Link>
+            <a href="https://passm8.com/airmana" target="_blank" rel="noopener noreferrer" className="block text-white hover:text-[#D6A7A3] transition-colors py-3 text-sm tracking-wider" onClick={() => setMobileMenuOpen(false)}>JOIN</a>
             <a href="#contact" className="block text-white hover:text-[#D6A7A3] transition-colors py-3 text-sm tracking-wider" onClick={() => setMobileMenuOpen(false)}>CONTACT</a>
           </div>
         )}
