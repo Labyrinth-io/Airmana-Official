@@ -1,7 +1,7 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import airmanaLogo from '../components/Logo/Airmanalogotransparent.webp';
+import airmanaLogo from '/images/Airmanalogotransparent.webp';
 import BreathworkHero from '../components/BreathworkHero';
 import BreathworkExperience from '../components/BreathworkExperience';
 import BreathworkHowItWorks from '../components/BreathworkHowItWorks';
