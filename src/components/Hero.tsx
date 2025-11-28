@@ -54,17 +54,14 @@ export default function Hero() {
           </div>
         )}
       </nav>
-
+ 
       <div className="relative h-screen flex items-center justify-center bg-[#0B1120]">
         <div className="relative z-20 flex flex-col items-center justify-center w-full px-6 pt-32 md:pt-24 pb-16 md:pb-24">
           <div className="w-full max-w-md mx-auto mb-4 md:mb-0">
-  <img
-    src={airmanaLogo}
-    alt="Airmana"
-    className="w-full h-auto object-contain scale-90"
-  />
-</div>
-
+            <img
+              src={airmanaLogo}
+              alt="Airmana"
+              className="w-full h-auto object-contain"
             />
           </div>
 
