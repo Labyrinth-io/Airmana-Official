@@ -31,58 +31,6 @@ export default function Contact() {
         </h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="bg-[#2D3748] rounded-2xl p-8 border border-white/10">
-            <div className="space-y-4">
-              <div className="flex items-start gap-4 text-gray-100">
-                <MapPin className="text-[#D6A7A3] flex-shrink-0 mt-1" size={20} />
-                <a
-                  href="https://maps.app.goo.gl/5KBo5vp8JSEdhewo9"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#D6A7A3] transition-colors"
-                >
-                  8 Electra Street, Bundaberg Central, QLD 4670
-                </a>
-              </div>
-              <div className="flex items-center gap-4 text-gray-100">
-                <Phone className="text-[#D6A7A3] flex-shrink-0" size={20} />
-                <a href="tel:0413428182" className="text-gray-100 hover:text-[#D6A7A3] transition-colors">
-                  0413 428 182
-                </a>
-              </div>
-              <div className="flex items-center gap-4 text-gray-100">
-                <Mail className="text-[#D6A7A3] flex-shrink-0" size={20} />
-                <a href="mailto:info@airmana.com.au" className="text-gray-100 hover:text-[#D6A7A3] transition-colors">
-                  info@airmana.com.au
-                </a>
-              </div>
-            </div>
-
-            <div className="mt-8 pt-8 border-t border-white/10">
-              <p className="text-gray-200 mb-4">Follow Us</p>
-              <div className="flex gap-4">
-                <a
-                  href="https://www.facebook.com/airmanaenergy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 rounded-full bg-[#D6A7A3] flex items-center justify-center hover:scale-110 transition-transform"
-                  aria-label="Facebook"
-                >
-                  <Facebook className="text-[#0B1120]" size={20} />
-                </a>
-                <a
-                  href="https://www.instagram.com/airmana_/?hl=en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-12 h-12 rounded-full bg-[#D6A7A3] flex items-center justify-center hover:scale-110 transition-transform"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="text-[#0B1120]" size={20} />
-                </a>
-              </div>
-            </div>
-          </div>
-
           <div className="bg-[#F7F7F7] rounded-2xl p-8">
             <h3 className="text-2xl font-medium text-[#0B1120] mb-6">
               Send us a Message
@@ -157,6 +105,58 @@ export default function Contact() {
                 </button>
               </form>
             )}
+          </div>
+
+          <div className="bg-[#2D3748] rounded-2xl p-8 border border-white/10">
+            <div className="space-y-4">
+              <div className="flex items-start gap-4 text-gray-100">
+                <MapPin className="text-[#D6A7A3] flex-shrink-0 mt-1" size={20} />
+                <a
+                  href="https://maps.app.goo.gl/5KBo5vp8JSEdhewo9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-[#D6A7A3] transition-colors"
+                >
+                  8 Electra Street, Bundaberg Central, QLD 4670
+                </a>
+              </div>
+              <div className="flex items-center gap-4 text-gray-100">
+                <Phone className="text-[#D6A7A3] flex-shrink-0" size={20} />
+                <a href="tel:0413428182" className="text-gray-100 hover:text-[#D6A7A3] transition-colors">
+                  0413 428 182
+                </a>
+              </div>
+              <div className="flex items-center gap-4 text-gray-100">
+                <Mail className="text-[#D6A7A3] flex-shrink-0" size={20} />
+                <a href="mailto:info@airmana.com.au" className="text-gray-100 hover:text-[#D6A7A3] transition-colors">
+                  info@airmana.com.au
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-8 pt-8 border-t border-white/10">
+              <p className="text-gray-200 mb-4">Follow Us</p>
+              <div className="flex gap-4">
+                <a
+                  href="https://www.facebook.com/airmanaenergy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full bg-[#D6A7A3] flex items-center justify-center hover:scale-110 transition-transform"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="text-[#0B1120]" size={20} />
+                </a>
+                <a
+                  href="https://www.instagram.com/airmana_/?hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-12 h-12 rounded-full bg-[#D6A7A3] flex items-center justify-center hover:scale-110 transition-transform"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="text-[#0B1120]" size={20} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
