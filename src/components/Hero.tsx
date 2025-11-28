@@ -21,7 +21,10 @@ export default function Hero() {
               alt="Airmana Logo"
               className="w-12 h-12 object-contain"
             />
-            <h1 className="text-white text-xl sm:text-2xl tracking-[0.2em] sm:tracking-[0.3em] font-light whitespace-nowrap" style={{ fontFamily: '"Artegra Sans Condensed SC", sans-serif' }}>
+            <h1
+              className="text-white text-xl sm:text-2xl tracking-[0.2em] sm:tracking-[0.3em] font-light whitespace-nowrap"
+              style={{ fontFamily: '"Artegra Sans Condensed SC", sans-serif' }}
+            >
               A I R M A N A
             </h1>
           </Link>
@@ -57,24 +60,11 @@ export default function Hero() {
 
       <div className="relative h-screen flex items-center justify-center bg-[#0B1120]">
         <div className="relative z-20 flex flex-col items-center justify-center w-full px-6 pt-32 md:pt-24 pb-16 md:pb-24">
-          <div className="w-full max-w-md mx-auto mb-4 md:mb-0">
+          
+          {/* 🔽 HERO LOGO SHRUNK BY 10% */}
+          <div className="w-[90%] max-w-md mx-auto mb-4 md:mb-0">
             <img
               src={airmanaLogo}
               alt="Airmana"
               className="w-full h-auto object-contain"
-            />
-          </div>
-
-          <div className="mt-12">
-            <button
-              onClick={scrollToTimetable}
-              className="bg-[#D6A7A3] text-[#0B1120] px-10 py-4 rounded-full font-medium text-lg hover:scale-105 hover:shadow-lg hover:shadow-pink-500/30 transition-all tracking-wide"
-            >
-              VIEW TIMETABLE
-            </button>
-          </div>
-        </div>
-      </div>
-    </header>
-  );
-}
+            /
