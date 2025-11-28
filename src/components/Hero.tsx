@@ -39,7 +39,7 @@ export default function Hero() {
             <a href="#events-workshops" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">EVENTS</a>
             <Link to="/breathwork" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">BREATHWORK</Link>
             <Link to="/headset-hire" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">HEADSET HIRE</Link>
-            <Link to="/join" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">JOIN</Link>
+            <Link to="/join" className="text-white hover:text-[#D6A7A3] transition-colors text-sm tracking-wider">JOIN</Link>https://passm8.com/airmana
           </div>
         </div>
 
