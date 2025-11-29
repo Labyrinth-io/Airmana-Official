@@ -16,7 +16,6 @@ export default function BreathworkHero() {
             A guided breathwork session to stabilise your nervous system, drop tension and switch your body into recovery mode.
             <br />
             <span className="text-gray-400">
-              No distractions. No performance. Just space to recalibrate and return clear, calm and composed.
             </span>
           </p>
 
