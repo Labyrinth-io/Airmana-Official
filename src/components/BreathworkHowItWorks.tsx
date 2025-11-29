@@ -9,7 +9,7 @@ const steps = [
   {
     icon: Wind,
     title: 'Arrive and Breathe',
-    description: 'The space is calm and private. I\'m guided the whole way, so I can relax straight away.'
+    description: 'The space is calm and private. I'm guided the whole way, so I can relax straight away.'
   },
   {
     icon: Sparkles,
