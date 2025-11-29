@@ -17,7 +17,7 @@ const events = [
     title: 'Workshops & Experiences',
     name: "Airmana's Quantum Breath",
     location: 'Happiness Yoga',
-    date: 'November 27th & December 11th',
+    date: 'December 11th',
     time: '6pm - 7:30pm',
     buttonText: 'View Workshops',
     link: 'https://passm8.com/airmana/purchase-pass/96?recipientClientId=1053'
