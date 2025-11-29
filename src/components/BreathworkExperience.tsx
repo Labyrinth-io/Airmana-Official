@@ -9,7 +9,7 @@ const experiences = [
   {
     icon: User,
     title: 'Completely Personal',
-    description: 'I can just show up as I am — stressed, tired, overwhelmed — and the session adapts to me.'
+    description: 'We tailor the session to however you arrive — stressed, tired or wired.'
   },
   {
     icon: Timer,
