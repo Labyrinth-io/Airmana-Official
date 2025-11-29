@@ -14,7 +14,7 @@ const steps = [
   {
     icon: Sparkles,
     title: 'Walk Out Rebalanced',
-    description: 'Within one session I can feel my chest loosen, my thoughts slow, and my whole body soften.'
+    description: 'After one session, your chest begins to loosen, your thoughts slow down, and your body starts to soften.'
   }
 ];
 
