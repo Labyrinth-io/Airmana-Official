@@ -6,15 +6,18 @@ export default function BreathworkHero() {
       <div className="relative z-10 max-w-6xl mx-auto w-full">
         <div className="text-center space-y-8 mt-16">
           <h1 className="text-5xl md:text-7xl font-light text-white leading-tight tracking-tight">
-            I Just Want to Feel<br />
+            Reset Your<br />
             <span className="text-[#D6A7A3]">
-              Calm Again
+              Body & Mind
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed font-light">
-            A private breathwork session where I can switch off, slow down, and finally feel my body settle.<br />
-            <span className="text-gray-400">No noise. No pressure. Just space to breathe and reset properly.</span>
+            A guided breathwork session to stabilise your nervous system, drop tension and switch your body into recovery mode.
+            <br />
+            <span className="text-gray-400">
+              No distractions. No performance. Just space to recalibrate and return clear, calm and composed.
+            </span>
           </p>
 
           <div className="pt-6">
