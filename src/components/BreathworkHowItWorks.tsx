@@ -4,12 +4,12 @@ const steps = [
   {
     icon: Calendar,
     title: 'Pick a Time That Suits Me',
-    description: 'I just choose a slot below — no back-and-forth, no hassle.'
+    description: 'Just choose a slot below. No back-and-forth, no hassle.'
   },
   {
     icon: Wind,
     title: 'Arrive and Breathe',
-    description: 'The space is calm and private. I\'m guided the whole way, so I can relax straight away.'
+    description: 'The space is calm and private. Be guided the whole way, so you can relax straight away.' 
   },
   {
     icon: Sparkles,
