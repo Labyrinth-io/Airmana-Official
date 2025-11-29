@@ -15,7 +15,7 @@ const experiences = [
   {
     icon: Timer,
     title: 'Quick Reset or Deep Release',
-    description: 'Whether I\'ve got twenty minutes or forty-five, I leave feeling lighter, clearer, and more grounded than when I arrived.'
+    description: 'By the end of the session, You walk out feeling lighter, clearer and more grounded.'
   }
 ];
 
