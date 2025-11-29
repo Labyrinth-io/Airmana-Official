@@ -4,7 +4,8 @@ const experiences = [
   {
     icon: Heart,
     title: 'Gentle, Guided Breathing',
-    description: 'Someone who actually knows what they\'re doing walks me through it so I don\'t overthink or "do it wrong."'
+    description: 'With experienced guidance, you can switch off and breathe without overthinking.'
+
   },
   {
     icon: User,
