@@ -19,6 +19,7 @@ export default function Join() {
               src={airmanaLogo}
               alt="Airmana Logo"
               className="w-12 h-12 object-contain"
+              loading="eager"
             />
             <h1 className="text-white text-xl sm:text-2xl tracking-[0.2em] sm:tracking-[0.3em] font-light whitespace-nowrap" style={{ fontFamily: '"Artegra Sans Condensed SC", sans-serif' }}>
               A I R M A N A
