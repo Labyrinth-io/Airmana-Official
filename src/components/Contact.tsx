@@ -108,6 +108,17 @@ export default function Contact() {
           </div>
 
           <div className="bg-[#2D3748] rounded-2xl p-8 border border-white/10">
+            <div className="mb-8">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.8043023629903!2d152.3517819!3d-24.870532599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6bebb9cc6170680b%3A0x5c1f763c5e29be0b!2sAIRMANA!5e0!3m2!1sen!2sau!4v1764989218861!5m2!1sen!2sau"
+                className="w-full h-64 rounded-lg"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
             <div className="space-y-4">
               <div className="flex items-start gap-4 text-gray-100">
                 <MapPin className="text-[#D6A7A3] flex-shrink-0 mt-1" size={20} />
