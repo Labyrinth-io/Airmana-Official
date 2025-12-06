@@ -1,9 +1,9 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import airmanaLogo from '/images/gerardcard.png';
+import airmanaLogo from '/images/Airmanalogotransparent.webp';
 
-export default function Hero() {
+export default function Hero() { 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const scrollToTimetable = () => {
