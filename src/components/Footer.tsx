@@ -61,9 +61,16 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="text-center text-gray-500 text-sm">
-          <p>&copy; 2025 Airmana. All rights reserved.</p>
-        </div>
+        <div className="text-center text-gray-500 text-sm space-y-2">
+  <p>&copy; 2025 Airmana. All rights reserved.</p>
+
+  <Link
+    to="/privacy-policy"
+    className="block text-gray-400 hover:text-[#D6A7A3] transition-colors text-xs tracking-wider"
+  >
+    Privacy Policy
+  </Link>
+</div>
       </div>
     </footer>
   );
