@@ -31,6 +31,7 @@ function App() {
           <Route path="/headset-hire" element={<HeadsetHire />} />
           <Route path="/breathwork" element={<Breathwork />} />
           <Route path="/join" element={<Join />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
       </Suspense>
     </Router>
