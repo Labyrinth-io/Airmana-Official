@@ -5,6 +5,7 @@ const Home = lazy(() => import('./pages/Home'));
 const HeadsetHire = lazy(() => import('./pages/HeadsetHire'));
 const Breathwork = lazy(() => import('./pages/Breathwork'));
 const Join = lazy(() => import('./pages/Join'));
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
 
 function ScrollToTop() {
   const { pathname } = useLocation();
